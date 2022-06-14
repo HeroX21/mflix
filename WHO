@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Citation & Quotation</title>
+</head>
+<body>
+
+	<blockquote cite="https://en.wikipedia.org/wiki/Lorem_ipsum"></blockquote>
+
+
+<abbr title="World Health Organization">WHO</abbr>
+
+<address></address>
+
+<bdo DIR="RTL"></bdo>
+
+<embed src="" width="400px" height="250px"></embed>
+
+
+</body>
+</html>
