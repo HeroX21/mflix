@@ -1,0 +1,61 @@
+@@ -0,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>GMAIL</title>
+</head>
+<body>
+	<p>&nbsp;&trade;&euro;&copy;</p>
+<form action="art of scissor.html" method="get">
+	<fieldset>
+		<legend>Fill Your Details</legend>
+	<label>FIRST NAME </label>
+	<input type="TEXT" placeholder="FIRST NAME" required>
+	<br><br>
+	<label> LAST NAME</label>
+	<input type="TEXT" placeholder="LAST NAME"required>
+	<br><br>
+	<label>PH.NUMBER</label>
+	<select required>
+		<option value="+91">+91</option>
+		<option value="+11">+11</option>
+		<option value="+1">+1</option>
+		<option value="+98">+98</option>
+	</select>
+	<input type="TEXT" maxlength="10"required>
+	<br><br>
+	<label>EMAIL</label>
+	<input type="TEXT" value="@gmail.com"required>
+	<br><br>
+	<label required>CHOOSE YOUR GENDER</label><br>
+	<input type="radio" name="GENDER">Male
+	<input type="radio" name="GENDER">Female
+	<input type="radio" name="GENDER">Others
+	<br><br>
+	<label required>Select Your Hobbies</label><br>
+	<input type="checkbox">Gaming
+	<input type="checkbox">Tracking
+	<input type="checkbox">Dancing
+	<input type="checkbox">Reading
+	<br><br>
+	<select required>
+		<option value="delhi">delhi</option>
+		<option value="goa">goa</option>
+		<option value="mumbai">mumbai</option>
+		<option value="uk">uk</option>
+	</select>
+	<br><br>
+	<input type="datetime-local" name=""required>
+	<br><br>
+	<label>Your Bio</label>
+	<textarea cols="50px" rows="5px"required></textarea>
+	<br><br>
+	<input type="file" name=""required>
+	<input type="submit" name=""required>
+	<input type="reset" name=""required>
+</fieldset>	
+</form>
+</body>
+</html>
