@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>css</title>
+	<style>
+		#box1{
+			font-size: 20px; 
+
+
+		}
+	</style>
+	
+</head>
+<body>
+	<center><img src="img/logo.png" width="70" height="80"></center><center><div style="font-size: 40px; font-family: Times New Roman;">DIV KUMAR</div></center>
+<center><div style="background-color:black; width: 500px; height: 40px; color: white;font-size: 32px;">Wellcome to DK Pan Masala</div></center>
+<center><div class="box" style="font-size: 40px;">Who We Are?</div></center>
+<center><div id="box1">
+We are the top pan masala manufacturer and brand in India, focusing on the introduction of products in flexible, convenient, and cost-efficient packaging, such as pouches, Canes and sachets with premium quality of ingredients.Royal Gold is #1 in the industry since Pan Masala itself is recognized by the name of Royal Gold  which is a Trustworty brand of our Group.
+The journey began with a simple need to create a Mouth Freshener that brings alive the experience of eating pan. Royal Gold is a fine blend of betel leaves. Its packaging makes it easily accessible, even on the go. At Royal Gold, Use of ingredients like cardamom, menthol, catechu gives an experience that gives you premium and luxury feel.</div></center><br>
+<div><center><img src="img/dk.jpg" alt="img" width="150" height="200"></center></div>
+<center><a href="http://dkroyalgold.renderforestsites.com/"target="_shelf"> FOR MORE INFO</a></center>
+<center><video controls width="400px" height="200px">
+	<source src="VIO/DK.mp4" type="video/mp4">
+</video></center>
+
+</body>
+</html>
