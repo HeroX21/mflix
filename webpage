@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WEBPAGE</title>
+    <style>
+        .box{
+            padding-top: 25px;
+            float: left;
+        }
+        .box a {
+               padding: 20px;
+               color: red;
+               font-size: 24px;
+               text-decoration: none;
+              font-weight: bolder;
+              text-indent: 100px;
+
+              
+
+        }
+        .img{
+            float: left;
+        }
+        
+        .A a{ 
+               color: blue;
+               font-size: 15px;
+               text-decoration: none;
+              font-weight: bolder;
+              float: top;
+              margin-left: 80px;
+              
+
+        }
+        .c{
+            padding-top: 20px;
+
+        }
+        .b{
+            padding-top: 50;
+        }
+        .bg{
+            background-color: white;
+            height: 90px;
+        }
+        .A :active{
+            
+color: black;
+border: 1px solid white;
+background-color: lightgray;
+}
+.ba{
+            background-color: orange;
+            height: 90px;
+        }
+                .boxx{
+            padding-top: 25px;
+            float: left;
+        }
+        .boxx a {
+               padding: 100px;
+               color: white;
+               font-size: 20px;
+               text-decoration: none;
+              font-weight: bolder;
+              text-indent: 10px;
+
+              
+
+        }
+        .img1{
+            float: left;
+        }
+        
+        .b a{ 
+               color: blue;
+               font-size: 15px;
+               text-decoration: none;
+              font-weight: bolder;
+              float: top;
+              margin-left: 80px;
+              
+
+        }
+        .c{
+            padding-top: 10px;
+            position: absolute;
+            left: 500px;
+
+        }
+        .boxx{
+            padding-top: 30px;
+            position: absolute;
+            left: 200px;
+
+        }
+        .b{
+            position: absolute;
+            top: 150px;
+        }
+        .baa{
+            background-color: orange;
+            height: 90px;
+        }
+        .b :active{
+            
+color: black;
+border: 1px solid white;
+background-color: lightgray;
+}
+.CD{
+    position: absolute;
+    bottom: 90PX;
+    left: 400px;
+    color: white;
+}
+.boxx a:hover{
+    color: black;
+    
+
+}
+.bss a:hover{
+    color: white;
+    
+
+}
+.bss {
+    color: black;
+}
+.CDD {
+    background-image: url("https://raw.githubusercontent.com/HeroX21/mflix/b91cc70cbbb7653dc709fcb43a59985071f1382a/TH.jpg"); 
+    height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.p1 {
+    height: 70p;
+      width: 300px;
+      float: left;
+      margin-right: 150px;
+      display: inline-block;
+      color: black;
+      }
+      .p2{
+        height: 70p;
+        width: 300px;
+      float: left;
+      margin-bottom: 200px;
+      display: inline-block;
+      color: black;
+      }
+      .p3{
+        height: 70p;
+        width: 300px;
+      float: left;
+      margin-left: 150px;
+      display: inline-block;
+      color: black;
+      }
+      .p2{
+        padding-right: -50px;
+        
+      }
+       .p1{
+        padding-left: 70px;
+        
+      }
+      .p{
+    position: absolute;
+}
+
+      .p1,.p2,.p3{
+        margin-top: 1150px;
+      }
+            .a {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+
+.img1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+}
+ @media screen and (max-width: 100px) {
+  .a {
+    width: 100%;
+  }
+}
+.img1 {
+  display: flex;
+}
+
+.a {
+  flex: 33.33%;
+  padding: 5px;
+  }
+.img1{
+    position: absolute;
+}
+.img1{
+        margin-top: 700px;
+        }
+        .vec img{
+            position: absolute;
+            top: 1700px;
+            left: 70px;
+        }
+        .why{
+            position: absolute;
+            top: 1800px;
+            left: 700px;
+            color: white;
+            font-family: calibri ;
+        }
+        .w{
+            color: darkorange;
+        }
+        .LK{
+            position: absolute;
+            top: 700PX;
+            left: 500px;
+        }
+        .nn{ position: absolute;
+            top: 240px;
+            left: -30px;
+            
+        }
+        .the{
+            position: absolute;
+            top: 235px;
+            left: 60px;
+            font-size: 21px;
+        }
+        .xi{
+            position: absolute;
+            top: 2440px;
+            left: 100px;
+        }
+        table{
+    background-color: rgb(0, 0, 0 );
+    width: 500px;
+    height: 300px;
+    border: 2px solid white;
+    padding-top: 20px;
+    margin-top: 60px;
+
+
+
+
+}
+input{
+    height: 30px;
+    border: 0px solid;
+    border-radius:40px ;
+    text-align: center;
+      }
+      button{
+    width: 80px;
+    height: 30px;
+    border: 0px solid;
+    border-radius:10px ;
+    text-align: center;
+    position: absolute;
+    left: 200px;
+    top: 250px;
+    
+    }
+    .tb{ position: absolute;
+        top:2550px ;
+        left: 800px;
+        color: white;
+
+    }
+    .bll{
+        color: black;
+    }
+
+
+        
+
+    </style>
+</head>
+<body class="pp">
+    <div class="bg"><div class="img"><img src="https://raw.githubusercontent.com/HeroX21/mflix/b91cc70cbbb7653dc709fcb43a59985071f1382a/logo.png" width="70px" height="80px"></div>
+    <div class="box"><a href="from css.html" target="_shelf" >DK Royal Gold</a></div>
+    <div class="c">
+        <a href="#"target="_shelf"><img src="https://raw.githubusercontent.com/HeroX21/mflix/b91cc70cbbb7653dc709fcb43a59985071f1382a/web1.png" class="pn"></a>
+    </div>
+    </div>
+<div class="baa"><div class="img1"></div>
+    <div class="boxx">
+        <a href="logoin.html"target="_shelf" class="bss">Home</a>
+        <a href="logoin.html"target="_shelf">Services</a>
+        <a href="logoin.html"target="_shelf">About</a>
+        <a href="logoin.html"target="_shelf">Contact</a></div>
+    
+    </div>
+    </div>
+    <div class="CDD">
+        <div class="CD">
+            <center><h1>WELLCOME TO DK ROYAL GOLD</h1></center>
+        </div>
+        <div class="LK">
+        <center><h1>THIS IS OUR PRODECT</h1></center>
+    </div>
+                <center><div class="ph">
+    <center><p class="p1" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></center>
+    <center><p class="p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></center>
+    <center><p class="p3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></center>
+</div></center>
+<center><div class="img1">
+  <div class="a">
+    <a href="http://dkroyalgold.renderforestsites.com/" target="_shelf"><img src="https://hosting.renderforestsites.com/9318998/800978/media/9821fed6e99f936bcc1b61671ec284a1.jpg" alt="dk" style="width:70%"></a>
+  </div>
+  <div class="a">
+    <a href="http://dkroyalgold.renderforestsites.com/" target="_shelf"><img src="https://hosting.renderforestsites.com/9318998/800978/media/9821fed6e99f936bcc1b61671ec284a1.jpg" alt="dk" style="width:70%"></a>
+  </div>
+  <div class="a">
+   <a href="http://dkroyalgold.renderforestsites.com/" target="_shelf"><img src="https://hosting.renderforestsites.com/9318998/800978/media/9821fed6e99f936bcc1b61671ec284a1.jpg" alt="dk" style="width:70%"></a>
+  </div>
+</div></center>
+
+    <div class="bab">
+        <img src="https://raw.githubusercontent.com/HeroX21/mflix/b91cc70cbbb7653dc709fcb43a59985071f1382a/akk.jpg" width="1330px" height="600px">
+        <div class="vec">
+            <img src="https://raw.githubusercontent.com/HeroX21/mflix/b91cc70cbbb7653dc709fcb43a59985071f1382a/vec.jpeg" width="430px" height="500px">
+        </div>
+        <div class="why">
+            <h1 class="w">WHY CHOOSE US</h1>
+            <h2>More than <b>50 YEAR EXPERIENCE</b><br>in industry</h2>
+            <p>Reprehenderit, odio laboriosam? Blanditiis quae<br> 
+            ullam quasi illum minima nostrum perspiciatis<br> 
+            error consequatur sit nulla.</p>
+         
+     <div class="the">
+            <p><b>Expert in Builings</b><br>
+               Lorem ipsum dolor sit amet.</p>
+               <p><b>Modern Design</b><br>
+               Lorem ipsum dolor sit amet.</p>
+               <p><b>Leading In Floor Planning</b><br>
+               Lorem ipsum dolor sit amet.</p>
+        </div>
+
+        </div>
+        </div>
+        <div>
+            <img src="https://raw.githubusercontent.com/HeroX21/mflix/b91cc70cbbb7653dc709fcb43a59985071f1382a/ww.jpg" width="1330px" height="600px">
+             <div class="xi">
+            <img src="https://raw.githubusercontent.com/HeroX21/mflix/b91cc70cbbb7653dc709fcb43a59985071f1382a/xi.png" width="350px" height="500px">
+        </div>
+        </div>
+        <div>
+       <table class="tb"  style="padding-left: 30px;">
+        <th>FIRST NAME</th>
+        <th>LAST NAME</th>
+        <tr>
+            <td><input type="text" placeholder="FIRST NAME"></td>
+            <td><input type="text" placeholder="LAST NAME"></td>
+        </tr>
+        <br>
+        <th>Ph.no</th>
+        <th>EMAIL</th>
+        <tr>
+            <td><input type="number" maxlength="10" ></td>
+            <td><input type="TEST" placeholder="EMAIL"></td>
+        </tr>
+        <br>
+        <th>USERNAME</th>
+        <th>PASSWORD</th>
+        <tr>
+            <td><input type="text" class="text" placeholder="username"></td>
+            <td><input type="password" class="pass" placeholder="password"></td>
+        </tr>
+        <br>
+        <tr>
+        <td class="bll">REMAMBER ME</td>
+        </tr>
+        <br>
+         <br>
+        <tr>
+        <td class="bll">REMAMBER ME</td>
+        </tr>
+        <br>
+        <tr>
+            <td><center><button class="lo"><a href="https://sites.google.com/view/microsofapp/home"target="_shelf" required >login</a></button></center></td>
+        </tr>
+
+
+    </table></div>
+    
+</body>
+</html>
