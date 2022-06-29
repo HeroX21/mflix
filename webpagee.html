@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>WEBPAGE</title>
+
     <style>
         .box{
             padding-top: 25px;
@@ -506,6 +507,61 @@ input{
     background-color: black;
 
 }
+footer {
+  background-color: black;
+  color: #eee;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer ul li {
+  position: relative;
+  text-decoration: none;
+  list-style: none;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: all 1000ms ease-in-out;
+}
+footer ul li:hover {
+  color: orange;
+}
+footer ul li:hover::before {
+  width: 100px;
+}
+footer ul li::before {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  background-color: orange;
+  width: 0%;
+  height: 10%;
+  transition: all 700ms;
+}
+.colo{
+    position: absolute;
+    top: 5450px;
+    background-color: black;
+    right: 5px;
+    width: 925px ;
+}
+.bl{
+    position: absolute;
+    top: 5450px;
+    color: white;
+    left: 0px;
+    background-color: black;
+    width: 500px;
+    height: 250px;
+
+}
+.icon{ position: absolute;
+    width: 50px;
+    height: 50px;
+    left: -60px;
+    top: 20px;
+    color: orange;
+}
+
 
 
         
@@ -522,9 +578,9 @@ input{
     </div>
 <div class="baa"><div class="img1"></div>
     <div class="boxx">
-        <a href="logoin.html"target="_shelf" class="bss">Home</a>
+        <a href="css/webpage.html"target="_shelf" class="bss">Home</a>
         <a href="logoin.html"target="_shelf">Services</a>
-        <a href="logoin.html"target="_shelf">About</a>
+        <a href="css/about.html"target="_shelf">About</a>
         <a href="logoin.html"target="_shelf">Contact</a></div>
     
     </div>
@@ -582,7 +638,7 @@ input{
             error consequatur sit nulla.</p>
          
      <div class="the">
-            <p><b>Expert in Builings</b><br>
+             <svg class=" icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!-- Font Awesome Pro 5.15.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --><path d="M616 192H480V24c0-13.26-10.74-24-24-24H312c-13.26 0-24 10.74-24 24v72h-64V16c0-8.84-7.16-16-16-16h-16c-8.84 0-16 7.16-16 16v80h-64V16c0-8.84-7.16-16-16-16H80c-8.84 0-16 7.16-16 16v80H24c-13.26 0-24 10.74-24 24v360c0 17.67 14.33 32 32 32h576c17.67 0 32-14.33 32-32V216c0-13.26-10.75-24-24-24zM128 404c0 6.63-5.37 12-12 12H76c-6.63 0-12-5.37-12-12v-40c0-6.63 5.37-12 12-12h40c6.63 0 12 5.37 12 12v40zm0-96c0 6.63-5.37 12-12 12H76c-6.63 0-12-5.37-12-12v-40c0-6.63 5.37-12 12-12h40c6.63 0 12 5.37 12 12v40zm0-96c0 6.63-5.37 12-12 12H76c-6.63 0-12-5.37-12-12v-40c0-6.63 5.37-12 12-12h40c6.63 0 12 5.37 12 12v40zm128 192c0 6.63-5.37 12-12 12h-40c-6.63 0-12-5.37-12-12v-40c0-6.63 5.37-12 12-12h40c6.63 0 12 5.37 12 12v40zm0-96c0 6.63-5.37 12-12 12h-40c-6.63 0-12-5.37-12-12v-40c0-6.63 5.37-12 12-12h40c6.63 0 12 5.37 12 12v40zm0-96c0 6.63-5.37 12-12 12h-40c-6.63 0-12-5.37-12-12v-40c0-6.63 5.37-12 12-12h40c6.63 0 12 5.37 12 12v40zm160 96c0 6.63-5.37 12-12 12h-40c-6.63 0-12-5.37-12-12v-40c0-6.63 5.37-12 12-12h40c6.63 0 12 5.37 12 12v40zm0-96c0 6.63-5.37 12-12 12h-40c-6.63 0-12-5.37-12-12v-40c0-6.63 5.37-12 12-12h40c6.63 0 12 5.37 12 12v40zm0-96c0 6.63-5.37 12-12 12h-40c-6.63 0-12-5.37-12-12V76c0-6.63 5.37-12 12-12h40c6.63 0 12 5.37 12 12v40zm160 288c0 6.63-5.37 12-12 12h-40c-6.63 0-12-5.37-12-12v-40c0-6.63 5.37-12 12-12h40c6.63 0 12 5.37 12 12v40zm0-96c0 6.63-5.37 12-12 12h-40c-6.63 0-12-5.37-12-12v-40c0-6.63 5.37-12 12-12h40c6.63 0 12 5.37 12 12v40z"/></svg></a><p><b>Expert in Builings</b><br>
                Lorem ipsum dolor sit amet.</p>
                <p><b>Modern Design</b><br>
                Lorem ipsum dolor sit amet.</p>
@@ -725,11 +781,47 @@ input{
 </div>
 <div class="orgg">
     <img src="https://raw.githubusercontent.com/HeroX21/mflix/b470dc28ffbedad0aadf83bcbea51af3ce4496f3/orrg.jpg">
+    <div class="colo">
+    <footer>
+  <div class="col">
+    <h1>Head</h1>
+    <ul>
+      <center><li>lorem</li>
+      <li>lorem</li>
+      <li>lorem</li>
+      <li>lorem</li>
+      <li>lorem</li></center>
+    </ul>
+  </div>
+  <div class="col">
+    <h1>Head</h1>
+    <ul>
+      <center><li>lorem</li>
+      <li>lorem</li>
+      <li>lorem</li>
+      <li>lorem</li>
+      <li>lorem</li></center>
+    </ul>
+  </div>
+  <div class="col">
+    <h1>Head</h1>
+    <ul>
+      <center><li>lorem</li>
+      <li>lorem</li>
+      <li>lorem</li>
+      <li>lorem</li>
+      <li>lorem</li></center>
+    </ul>
+  </div>
+</footer>
+</div>
+<div class="bl">
+
+    <center><h1>DK ROYAL <br> PAN MASALA</h1></center>
+</div>
 
 </div>
-<div class="LSS">
-    <img src="https://raw.githubusercontent.com/HeroX21/mflix/b470dc28ffbedad0aadf83bcbea51af3ce4496f3/LLLL.jpg">
-</div>
+
 
     
     
