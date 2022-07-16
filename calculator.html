@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>calculator</title>
+	<style>
+		.ca{
+			border: 2px solid black;
+			width: 300px;
+			height: 450px;
+			background-color: black;
+					
+		}
+	
+			
+		
+		#in{
+			width: 290px;
+			height: 50px;
+			border: 3px solid black;
+			position: relative ;
+			top: 10px;
+			font-size: 30px;
+			background-color: black;
+			color: white;
+
+		}
+		.ct{
+			font-size: 35px;
+			width: 300px;
+			text-align: center;
+			position: relative;
+			top: 20px;
+			border-collapse:collapse ;
+
+		}
+		.b input{
+			width: 50px;
+			height: 50px;
+			margin-right: 10px;
+			font-size: 20PX;
+			background-color: gray;
+
+
+
+		}
+		.b{
+			padding: 10px;
+
+		}
+		.v{padding: 10px;
+			position: relative;
+			left: -25px;
+			width: 50px;
+			height: 50px;
+
+		}
+		.v,.bv{
+			padding: 10px;
+			margin-right: 10px;
+		}
+		.wi{
+			background-color: white;
+			height: 374px;
+		}
+		.b,.bv{
+			font-family: arial;
+			font-weight: bold;
+			
+		}
+	</style>
+</head>
+<body>
+	<center><div class="cv">
+		<div class="ca">
+			<form name="ct">
+		<input type="text" name="answer"id="in" >
+		<br><br>
+		<div class="wi">
+		
+		<div class="b">
+				 <input type="button" value="+" onclick="ct.answer.value +='+' ">
+				 <input type="button" value="-" onclick="ct.answer.value +='-' ">
+				 <input type="button" value="x" onclick="ct.answer.value +='*' ">
+				 <input type="button" value="÷" onclick="ct.answer.value +='/' ">
+				 </div>
+				 <div class="bv">
+				 <input class="v" type="button" value="7" onclick="ct.answer.value +='7' ">
+				 <input class="v" type="button" value="8" onclick="ct.answer.value +='8' ">
+				 <input class="v" type="button" value="9" onclick="ct.answer.value +='9' "> 
+				 </div>
+				 <div class="bv">
+				 <input class="v" type="button" value="4" onclick="ct.answer.value +='4' ">
+				 <input class="v" type="button" value="5" onclick="ct.answer.value +='5' ">
+				 <input class="v" type="button" value="6" onclick="ct.answer.value +='6' ">
+				 </div>
+				  <div class="bv">
+				 <input class="v" type="button" value="1" onclick="ct.answer.value +='1' ">
+				 <input class="v" type="button" value="2" onclick="ct.answer.value +='2' ">
+				 <input class="v" type="button" value="3" onclick="ct.answer.value +='3' ">
+				 </div>
+				  <div class="bv">
+				 <input class="v" type="button" value="0" onclick="ct.answer.value +='0' ">
+				 <input class="v" type="button" value="." onclick="ct.answer.value +='.' ">
+				 <input class="v" type="button" value="CE" onclick="ct.answer.value = '' " id="clear">
+				  </div>
+				  <div class="vb">
+				  	<input type="button" value="=" onclick="ct.answer.value = eval(ct.answer.value)" style="height: 260px; width: 50px; position: absolute; bottom: 200px; right: 566px; background-color: rgb(204, 85, 0);">
+				  </div>
+				  </div>
+	</form>		
+	</div>
+	</div></center>
+
+	
+
+</body>
+</html>
